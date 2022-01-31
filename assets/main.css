@@ -1,0 +1,87 @@
+#main{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#ff512f,#dd2476);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    position: fixed;
+    z-index: -0;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#ff512f,#dd2476);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 400px;
+    background-image: linear-gradient(#ffb4a4,#ffffff);
+    border-radius: 20px;
+    box-shadow: 0 0 #fff;
+    display: block;
+    position: relative;
+}
+
+.box__stick {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    width: 40px;
+    text-align: center;
+    line-height: 2.8rem;
+    background-color: #fec93b;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.box__header{
+    font-size: 20px;
+    text-align: center;
+    color: #ff4713;
+    margin: 12px auto;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.box__img{
+    font-size: 24px;
+    text-align: center;
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.box__line{
+    text-align: center;
+}
+
+.box__text{
+    margin: 12px 20px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.box__text--content{
+    color: #000;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.box__slogan{
+    float: right;
+    margin-right: 30px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #ff4713;
+    margin-bottom: 14px;
+}
