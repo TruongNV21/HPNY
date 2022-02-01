@@ -109,3 +109,8 @@ function Run() {
   }
   requestAnimationFrame(Run);
 }
+
+var audioPlay=document.getElementById("app__audio");
+function myFunction(){
+  audioPlay.play();
+}
